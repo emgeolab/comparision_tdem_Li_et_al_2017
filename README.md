@@ -1,4 +1,10 @@
-# Comparision of `simpeg-tdem` with `Li et al. (2017)`
+# Validation of `simpeg-tdem` Against Li et al. (2017)
 
-This repository includes a jupyter notebook conducting time-domain electromagnetic (TDEM) simulations using `simpeg-tdem` code.
-Obtained simulation results are comapred with the analytic solution for the halfspace and the block in a halfspace case from `Li et al. (2017)`. 
+This repository provides Jupyter notebooks for validating the `simpeg-tdem` implementation through comparisons with analytic solutions reported by Li et al. (2017).
+
+The validation includes:
+
+- A homogeneous half-space model.
+- A conductive block in a homogeneous half-space.
+
+For each case, numerical TDEM responses computed with `simpeg-tdem` are compared with the corresponding analytic solutions to assess modeling accuracy.
